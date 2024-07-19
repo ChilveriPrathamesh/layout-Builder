@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.configure-controller-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #475569;
+}
+
+.responsive-controller-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 550px;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-controller-container {
+    max-width: 1140px;
+  }
+}
+
+.controller-title {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+  .controller-title {
+    font-size: 32px;
+  }
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label-content-title {
+  font-size: 14px;
+  margin-left: 6px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .label-content-title {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+}
